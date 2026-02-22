@@ -1,0 +1,44 @@
+
+body{
+    font-family: "Comic Sans MS";
+}
+
+
+div, span{
+    border: 2px solid black;
+}
+
+
+div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+div div{
+    display: flex;
+    gap: 10px;
+}
+
+
+.id:first-child{
+    background-color: yellow;
+}
+
+
+.class .id{
+    background-color: yellow;
+}
+
+
+span.class{
+    font-style: italic;
+}
+
+
+#H{
+    width: 33%;
+    margin: auto;
+    text-align: right;
+}
